@@ -18,5 +18,4 @@ def show_completed_models(completed_models):
         print(completed_model)
 
 
-# unprinted_designs_info = ['iphone case', 'robot pendant', 'dodecahedron']
-# completed_models_info = []
+

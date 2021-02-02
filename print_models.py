@@ -1,4 +1,11 @@
-import printing_functions
+# from printing_functions import print_models
+#
+# # 8-15
+# unprinted_designs_info = ['iphone case', 'robot pendant', 'dodecahedron']
+# completed_models_info = []
+# print_models(unprinted_designs_info[:], completed_models_info)
+# print(unprinted_designs_info)
+
 
 # 首先创建一个列表，其中包含一些要打印的设计
 # unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
