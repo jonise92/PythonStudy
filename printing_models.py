@@ -1,3 +1,5 @@
+import printing_functions
+
 # 首先创建一个列表，其中包含一些要打印的设计
 # unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 # completed_models = []
@@ -50,12 +52,12 @@
 # print(unprinted_designs_info)
 
 # 8-9
-magicians = ['小明', '阿紫', '木木']
-
-
-def show_magicians(names):
-    for name in names:
-        print(name)
+# magicians = ['小明', '阿紫', '木木']
+#
+#
+# def show_magicians(names):
+#     for name in names:
+#         print(name)
 
 
 # show_magicians(magicians)
@@ -80,24 +82,25 @@ def show_magicians(names):
 
 # 8-11
 
-magicians_back = magicians[:]
-
-
-def make_great(magicians_info):
-    great_magicians = []
-    while magicians_info:
-        magician = magicians_info.pop()
-        great_magician = magician + ' the Great.'
-        great_magicians.append(great_magician)
-
-    for magician in great_magicians:
-        magicians_info.append(magician)
-
-    print(magicians_info)
-
-
-show_magicians(magicians)
-make_great(magicians_back)
-show_magicians(magicians_back)
+# magicians_back = magicians[:]
+#
+#
+# def make_great(magicians_info):
+#     great_magicians = []
+#     while magicians_info:
+#         magician = magicians_info.pop()
+#         great_magician = magician + ' the Great.'
+#         great_magicians.append(great_magician)
+#
+#     for magician in great_magicians:
+#         magicians_info.append(magician)
+#
+#
+# show_magicians(magicians)
+# make_great(magicians_back)
+#
+# print('\n')
+#
+# show_magicians(magicians_back)
 
 
